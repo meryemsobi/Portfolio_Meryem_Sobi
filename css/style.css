@@ -44,93 +44,31 @@ nav ul li a:hover {
     margin: auto;
 }
 
-/* Section accueil */
-.section.accueil {
-    background: #d6e8f2;
-    color: #1f2c67;
+.acceuil {
+    background: #ffffff; /* Fond blanc */
+    color: #1f2c67; /* Texte bleu foncé */
     text-align: center;
-    padding: 100px 20px;
 }
 
-.accueil h1 {
+.acceuil h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
 }
 
-.accueil p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.accueil .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #1f2c67;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.accueil .btn:hover {
-    background: #003366;
-}
-
-/* Section présentation */
-.section.presentation {
-    padding: 60px 20px;
-    text-align: center;
-    background: #ffffff;
-}
-
-.presentation h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.presentation p {
+.acceuil p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
-/* Section liens vers les autres pages */
-.section.pages {
-    padding: 60px 20px;
-    background: #ffffff;
-    text-align: center;
-}
-
-.pages h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
-.pages .links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.pages .btn {
+.acceuil .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #d6e8f2;
-    color: #1f2c67;
+    background: #d6e8f2; /* Fond bleu clair */
+    color: #1f2c67; /* Texte bleu foncé */
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.pages .btn:hover {
-    background: #b0c7df;
-}
-
-/* Footer */
-footer {
-    background-color: #d6e8f2;
-    color: #1f2c67;
-    text-align: center;
-    padding: 10px 0;
+.acceuil .btn:hover {
+    background: #b0c7df; /* Fond bleu légèrement plus foncé */
 }
 
 /* Projets */
