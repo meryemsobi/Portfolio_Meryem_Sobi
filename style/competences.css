@@ -1,0 +1,121 @@
+.competences-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* ou 100vh si tu veux toute la hauteur de l'écran */
+}
+
+/* Langues /*
+
+/* Section Langues */
+.section.langues {
+    padding: 4rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.section.langues h2 {
+    font-size: 3rem;
+    color: #4b98b7;
+    margin-bottom: 2rem;
+}
+
+/* Grille des langues */
+.langues-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap; /* Permet d'aller à la ligne si la largeur est trop petite */
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Carte langue individuelle */
+.langue {
+    background-color: #161616;
+    border: 2px solid #4b98b7;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(75, 152, 183, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.langue:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(75, 152, 183, 0.5);
+}
+
+.langue img {
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.langue h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4b98b7;
+}
+
+.langue p {
+    font-size: 1.2rem;
+}
+
+.langue_en {
+    background-color: #161616;
+    border: 2px solid #4b98b7;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(75, 152, 183, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.langue_en:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(75, 152, 183, 0.5);
+}
+
+.langue_en img {
+    display: block;              
+    margin: 2rem auto 2rem; 
+    width: 105px;
+    height: 105px;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.langue_en h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4b98b7;
+    text-align: center;
+}
+
+.langue_en p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+    .langues-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .langue {
+        width: 80%;
+    }
+}
