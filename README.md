@@ -34,6 +34,8 @@ Ce site a été **réalisé seule** et représente une vitrine simple, évolutiv
 
 ## ⛓️‍💥 Lien pour accéder à mon portfolio -> https://meryemsobi.github.io/Portfolio_Meryem_Sobi/
 
+---
+
 ## 📌 Remarques
 
 Ce portfolio est un projet en évolution. Il est régulièrement mis à jour pour refléter mes nouvelles compétences, projets et expériences.
