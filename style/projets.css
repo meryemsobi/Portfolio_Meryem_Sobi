@@ -141,3 +141,8 @@
   color: white;
   border: 2px solid #4b98b7;
 }
+
+.projet img[alt="Maquette Application des JO"] {
+  height: 180px; /* ou plus si besoin */
+  object-fit: cover; /* pour remplir l’espace sans déformer */
+}
