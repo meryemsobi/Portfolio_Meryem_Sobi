@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // EFFET DE TEXTE TYPING
     const typingElement = document.getElementById('typing');
-    const words = ["Développeuse web"];
+    const words = ["Web Designer"];
     let wordIndex = 0;
     let letterIndex = 0;
     let currentWord = words[wordIndex];
