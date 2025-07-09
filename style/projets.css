@@ -148,6 +148,6 @@
 }
 
 .projet img[alt="Compte Instagram @bros.draw"] {
-  height: 180px; /* ou plus si besoin */
+  height: 260px; /* ou plus si besoin */
   object-fit: cover; /* pour remplir l’espace sans déformer */
 }
