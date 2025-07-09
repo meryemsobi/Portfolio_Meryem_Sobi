@@ -146,3 +146,8 @@
   height: 180px; /* ou plus si besoin */
   object-fit: cover; /* pour remplir l’espace sans déformer */
 }
+
+.projet img[alt="Maquette Application des JO"] {
+  height: 180px; /* ou plus si besoin */
+  object-fit: cover; /* pour remplir l’espace sans déformer */
+}
